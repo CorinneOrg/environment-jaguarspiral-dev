@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:jaguarspiral/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:jaguarspiral/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:jaguarspiral/prow:hmacToken
+segmentWriteKey: vault:jaguarspiral:segmentWriteKey
